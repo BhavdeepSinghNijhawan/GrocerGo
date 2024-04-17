@@ -1,6 +1,87 @@
-GrocerGo
+<h1 align="center">GrocerGo</h1>
 
+```
+<!DOCTYPE html>
+```
 
+This declaration specifies the document type and version of HTML being used.
+
+```
+<html lang="en">
+```
+
+This section contains meta-information about the HTML document, such as character encoding, viewport settings, and links to external resources like stylesheets and icons.
+
+```
+<head>
+```
+
+This section contains meta-information about the HTML document, such as character encoding, viewport settings, and links to external resources like stylesheets and icons.
+
+```
+<meta charset="utf-8" />
+```
+
+Specifies the character encoding of the document as UTF-8, which supports a wide range of characters from various languages.
+
+```
+<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+```
+Links to the favicon (website icon) that appears in the browser tab or bookmarks bar. The %PUBLIC_URL% placeholder gets replaced with the actual public URL of the application during the build process.
+
+```
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+```
+
+Sets the viewport properties to ensure proper rendering and scaling on different devices and screen sizes.
+
+```
+<meta name="theme-color" content="#000000" />
+```
+
+Specifies the theme color of the web application. This color may be used by browsers or operating systems to customize the UI.
+
+```
+<meta name="description" content="Web site created using create-react-app" />
+```
+
+Provides a brief description of the web application for search engines and social media sharing.
+
+```
+<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+```
+
+Similar to the favicon, this links to an icon for Apple devices that support touch gestures.
+
+```
+<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+```
+
+Links to the web app manifest file, which provides metadata used when the web app is installed on a user's device or desktop.
+
+```
+<title>React App</title>
+```
+
+Sets the title of the web page displayed in the browser tab.
+
+```
+<body>
+```
+
+This section contains the main content of the HTML document, including any visible elements such as text, images, and interactive components.
+
+```
+<noscript>You need to enable JavaScript to run this app.</noscript>
+```
+
+Displays a message if JavaScript is disabled in the browser, informing the user that the application requires JavaScript to function properly.
+
+```
+<div id="root"></div>
+```
+
+This empty div element serves as the mounting point for the React application. React components will be rendered inside this div.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

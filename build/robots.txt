@@ -1,3 +1,4 @@
+# Author: Bhavdeep Singh Nijhawan
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:

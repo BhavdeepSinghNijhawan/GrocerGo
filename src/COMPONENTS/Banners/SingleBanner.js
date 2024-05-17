@@ -1,3 +1,5 @@
+// Author: Bhavdeep Singh Nijhawan
+
 import React from 'react'
 import './SingleBanner.css'
 

@@ -1,3 +1,5 @@
+// Author: Bhavdeep Singh Nijhawan
+
 import React from 'react'
 import veges from '../../ASSETS/veges.png'
 import './Footer1.css'

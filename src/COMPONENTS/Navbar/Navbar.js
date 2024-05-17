@@ -1,3 +1,5 @@
+// Author: Bhavdeep Singh Nijhawan
+
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import logo from '../../ASSETS/logo.png'

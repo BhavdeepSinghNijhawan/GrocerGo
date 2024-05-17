@@ -1,3 +1,5 @@
+// Author: Bhavdeep Singh Nijhawan
+
 import React from 'react'
 import payimg from '../../ASSETS/pay.png'
 import logo from '../../ASSETS/logo.png'

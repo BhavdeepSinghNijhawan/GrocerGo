@@ -1,3 +1,5 @@
+// Author: Bhavdeep Singh Nijhawan
+
 import React from 'react'
 import './HomeCategories.css'
 import img1 from '../../ASSETS/Images/1.png'

@@ -1,3 +1,5 @@
+/* Author: Bhavdeep Singh Nijhawan */
+
 nav {
     display: flex;
     flex-direction: column;
@@ -133,7 +135,6 @@ nav .s3 {
     nav .s2{
         display: none;
     }
-
 
     nav .s3 {
         display: flex;

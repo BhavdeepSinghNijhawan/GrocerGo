@@ -1,3 +1,5 @@
+// Author: Bhavdeep Singh Nijhawan
+
 import React from 'react'
 import ProductCard from './ProductCard'
 import img1 from '../../ASSETS/Products/1.png'

@@ -1,3 +1,5 @@
+// Author: Bhavdeep Singh Nijhawan
+
 import React from 'react'
 
 import Carousel from 'react-multi-carousel';
@@ -50,7 +52,6 @@ const ProductsSlider = ({ products, categoryname }) => {
             items: 1
         }
     };
-
 
     return (
         <div className='productsliderout' >

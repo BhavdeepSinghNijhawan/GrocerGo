@@ -1,3 +1,5 @@
+// Author: Bhavdeep Singh Nijhawan
+
 import React from 'react'
 import img1 from '../../ASSETS/Images/1.png'
 import img2 from '../../ASSETS/Images/2.png'

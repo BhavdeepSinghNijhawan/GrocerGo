@@ -1,11 +1,11 @@
+// Author: Bhavdeep Singh Nijhawan
+
 import React, { useState } from 'react'
 import './YourOrders.css'
 import OrderSuccessful from '../Order/OrderSuccessful'
 import { useRecoilState } from 'recoil'
 import { orderSuccessfulProvider } from '../../Providers/OrderSuccessfulProvider'
-
 const YourOrders = () => {
-
     const data = [
         {
             id: 112345,
@@ -74,7 +74,6 @@ const YourOrders = () => {
                         <th scope='col'>Invoice</th>
                     </tr>
                 </thead>
-
                 <tbody>
                     {data.map((item, index) => {
                         return (
@@ -106,5 +105,4 @@ const YourOrders = () => {
         </div>
     )
 }
-
 export default YourOrders

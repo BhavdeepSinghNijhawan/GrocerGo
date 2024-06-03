@@ -1,3 +1,5 @@
+// Author: Bhavdeep Singh Nijhawan
+
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import Footer1 from '../../COMPONENTS/Footer/Footer1'

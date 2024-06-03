@@ -1,3 +1,5 @@
+// Author: Bhavdeep Singh Nijhawan
+
 import React from 'react'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import Home from './PAGES/HomePage/Home'

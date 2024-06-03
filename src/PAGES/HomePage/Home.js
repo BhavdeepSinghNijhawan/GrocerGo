@@ -1,3 +1,5 @@
+// Author: Bhavdeep Singh Nijhawan
+
 import React from 'react'
 import BannerSlider from '../../COMPONENTS/Banners/BannerSlider'
 import HomeCategories from '../../COMPONENTS/Category/HomeCategories'

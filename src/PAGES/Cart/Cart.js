@@ -1,3 +1,5 @@
+// Author: Bhavdeep Singh Nijhawan
+
 import React, { useState } from 'react'
 import SingleBanner from '../../COMPONENTS/Banners/SingleBanner'
 import Footer1 from '../../COMPONENTS/Footer/Footer1'

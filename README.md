@@ -1,6 +1,6 @@
 <h1 align="center">GrocerGo</h1>
 
-![image](https://github.com/BhavdeepSinghNijhawan/GrocerGo/assets/143419096/d50845e0-1243-45eb-96f3-b776a5f30311)
+![image](https://github.com/BhavdeepSinghNijhawan/GrocerGo/assets/143419096/efb219ee-3ac0-476d-b5a8-555b75081feb)
 
 ## TECHNICAL STACKS
 

@@ -57,12 +57,42 @@
 - Styles a row of form elements.
 - Displayed as a flex container with a gap between items (gap: 10px).
 
-8. **`Media Queries (@media):`**
+8. **Media Queries `(@media):`**
 
 - Adjusts styles based on screen width to ensure responsiveness:
 - Max-width 1500px: Adjusts layout of .form-group-row to wrap items.
 - Max-width 1100px: Adjusts layout of .authcont, .authform, and their children for smaller screens, such as tablets.
 - Max-width 500px: Further adjusts layout for very small screens, such as mobile phones, making elements full-width and adjusting font sizes.
+
+#### src/PAGES/Auth/ForgotPassword.js
+
+1. **Imports and Setup:**
+
+- **`import React from 'react':`** Imports the React library, which is necessary for writing React components.
+- **`{ Link } from 'react-router-dom':`** Imports the **`Link`** component from React Router, used for navigation between different routes in the application.
+- **`import Navbar from '../../COMPONENTS/Navbar/Navbar':`** Imports a local **`Navbar`** component from a relative path **`(../../COMPONENTS/Navbar/Navbar)`**. Adjust the path based on the project structure.
+- **`import './AuthPage.css':`** Imports a CSS file (AuthPage.css) for styling this component.
+
+2. **Functional Component Definition:**
+
+- **`const ForgotPassword = () => { ... }:`** Defines a functional component named **`ForgotPassword`**. This component is a stateless functional component that doesn't manage its own state or lifecycle methods.
+
+3. **JSX Structure:**
+
+- **`Outermost Container (<div className='authpage'>):`** Wraps the entire content of the component. Uses the class name authpage for styling purposes.
+Navbar Component (<Navbar reloadnavbar={false}/>): Renders a Navbar component with a prop reloadnavbar set to false.
+Authentication Content Container (<div className='authcont'>): Contains all the content related to authentication. Uses the class name authcont for styling.
+Image Element (<img src='...' alt='signup' />): Displays an image fetched from a URL. The alt attribute provides alternative text for accessibility.
+Form Element (<form className='authform'>): Starts a form with class name authform for styling.
+Form Content:
+Heading (<h1>Forgot Password</h1>): Displays the title "Forgot Password".
+Form Groups (<div className='formgroup'>): Contains form elements (<label> and <input>) for email, password, and confirm password fields.
+Link to Login (<Link to='/login' className='stylenone'>): Renders a link to navigate to the Login page with text "Try Login again?".
+Link to Signup (<Link to='/signup' className='stylenone'>): Renders a link to navigate to the Signup page with a <button> labeled "Verify".
+Exporting Component:
+
+export default ForgotPassword: Exports the ForgotPassword component as the default export, making it available for use in other parts of the application.
+This component (ForgotPassword) is designed to display a form for users to reset their password, along with navigation links to login or sign up for verification purposes. The structure follows typical React patterns, using JSX for rendering UI elements and React Router for navigation. Styling is applied through CSS classes imported from an external stylesheet (AuthPage.css).
 
 ## CONTRIBUTOR
 

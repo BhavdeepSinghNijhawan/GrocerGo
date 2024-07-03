@@ -79,20 +79,22 @@
 
 3. **JSX Structure:**
 
-- **`Outermost Container (<div className='authpage'>):`** Wraps the entire content of the component. Uses the class name authpage for styling purposes.
-Navbar Component (<Navbar reloadnavbar={false}/>): Renders a Navbar component with a prop reloadnavbar set to false.
-Authentication Content Container (<div className='authcont'>): Contains all the content related to authentication. Uses the class name authcont for styling.
-Image Element (<img src='...' alt='signup' />): Displays an image fetched from a URL. The alt attribute provides alternative text for accessibility.
-Form Element (<form className='authform'>): Starts a form with class name authform for styling.
-Form Content:
-Heading (<h1>Forgot Password</h1>): Displays the title "Forgot Password".
-Form Groups (<div className='formgroup'>): Contains form elements (<label> and <input>) for email, password, and confirm password fields.
-Link to Login (<Link to='/login' className='stylenone'>): Renders a link to navigate to the Login page with text "Try Login again?".
-Link to Signup (<Link to='/signup' className='stylenone'>): Renders a link to navigate to the Signup page with a <button> labeled "Verify".
-Exporting Component:
+- **`Outermost Container (<div className='authpage'>):`** Wraps the entire content of the component. Uses the class name `authpage` for styling purposes.
+- **`Navbar Component (<Navbar reloadnavbar={false}/>):`** Renders a `Navbar` component with a prop `reloadnavbar` set to `false`.
+- **`Authentication Content Container (<div className='authcont'>):`** Contains all the content related to authentication. Uses the class name `authcont` for styling.
+- **`Image Element (<img src='...' alt='signup' />):`** Displays an image fetched from a URL. The `alt` attribute provides alternative text for accessibility.
+- **`Form Element (<form className='authform'>):`** Starts a form with class name `authform` for styling.
+- **Form Content:**
+  - **`Heading (<h1>Forgot Password</h1>):`** Displays the title "Forgot Password".
+  - **`Form Groups (<div className='formgroup'>):`** Contains form elements (`<label>` and `<input>`) for email, password, and confirm password fields.
+  - **`Link to Login (<Link to='/login' className='stylenone'>):`** Renders a link to navigate to the Login page with text "Try Login again?".
+  - **`Link to Signup (<Link to='/signup' className='stylenone'>):`** Renders a link to navigate to the Signup page with a `<button>` labeled "Verify".
+  
+4. **Exporting Component:**
 
-export default ForgotPassword: Exports the ForgotPassword component as the default export, making it available for use in other parts of the application.
-This component (ForgotPassword) is designed to display a form for users to reset their password, along with navigation links to login or sign up for verification purposes. The structure follows typical React patterns, using JSX for rendering UI elements and React Router for navigation. Styling is applied through CSS classes imported from an external stylesheet (AuthPage.css).
+- **`export default ForgotPassword:`** Exports the `ForgotPassword` component as the default export, making it available for use in other parts of the application.
+
+This component (`ForgotPassword`) is designed to display a form for users to reset their password, along with navigation links to login or sign up for verification purposes. The structure follows typical React patterns, using JSX for rendering UI elements and React Router for navigation. Styling is applied through CSS classes imported from an external stylesheet (`AuthPage.css`).
 
 ## CONTRIBUTOR
 

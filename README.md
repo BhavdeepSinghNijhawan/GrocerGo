@@ -96,6 +96,56 @@
 
 This component (`ForgotPassword`) is designed to display a form for users to reset their password, along with navigation links to login or sign up for verification purposes. The structure follows typical React patterns, using JSX for rendering UI elements and React Router for navigation. Styling is applied through CSS classes imported from an external stylesheet (`AuthPage.css`).
 
+#### src/PAGES/Auth/Login.js
+
+1. **Imports and Author Comment:**
+
+- The **`import`** statements bring in necessary modules (**`React`**, **`Link`** from React Router, **`Navbar`**, and the CSS file).
+
+2. **Login Functional Component:**
+
+- **`const Login = () => { ... }:`** Defines a functional component named Login using ES6 arrow function syntax.
+
+3. **Return Statement (JSX):**
+
+- **`return ( ... ):`** The component returns JSX, which describes the UI of the component.
+
+4. **HTML Structure:**
+
+- **`<div className='authpage'>:`** Outermost **`div`** with class **`authpage`** for styling purposes.
+- **`<Navbar reloadnavbar={false}/>:`** Renders the **`Navbar`** component with **`reloadnavbar`** prop set to **`false`**.
+- **`<div className='authcont'>:`** Inner **`div`** with class **`authcont`** for styling.
+
+5. **Image:**
+
+- **`<img src='...' alt='login' />:`** Displays an image sourced from the provided URL with alt text 'login'.
+
+6. **Form:**
+
+- **`<form className='authform'>:`** Form element with class **`authform`** for styling.
+
+7. **Form Inputs and Labels:**
+
+- **`<label htmlFor='email'>Email</label>:`** Label for email input.
+- **`<input type='email' id='email' />:`** Email input field.
+- **`<label htmlFor='password'>Password</label>:`** Label for password input.
+- **`<input type='password' id='password' />:`** Password input field.
+
+8. **Links (React Router):**
+
+- **`<Link to='/forgotpassword' className='stylenone'>:`** Link to '/forgotpassword' with 'stylenone' class applied.
+- **`<Link to='/' className='stylenone'>:`** Link to '/' (presumably home) with 'stylenone' class applied.
+- **`<Link to='/signup' className='stylenone'>:`** Link to '/signup' with 'stylenone' class applied.
+
+9. **Buttons and Headings:**
+
+- **`<button className='btn'>Login</button>:`** Button with 'btn' class for styling.
+- **`<h2 className='or'>OR</h2>:`** Heading 'OR' with 'or' class for styling.
+
+10. **Export:**
+
+- **`export default Login:`** Exports the **`Login`** component as the default export.
+
 ## CONTRIBUTOR
 
 - [Bhavdeep Singh Nijhawan](https://www.linkedin.com/in/bhavdeep-singh-nijhawan-739634280)

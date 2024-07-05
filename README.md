@@ -12,6 +12,41 @@
 
 ### CSS
 
+#### src/COMPONENTS/Banners/BannerSlider.css
+
+1. **Container Styling:**
+
+- **`.bannerslider:`** The main container for the banner slider, styled to take up the full width of its parent, hide overflow content, and position its child elements relatively.
+
+2. **Image Container Styling:**
+
+- **`.bannerslider .imagecont:`** The container for images within the banner slider, styled with a black background, flex layout, relative positioning, full width, and a height of 60% of the viewport.
+
+3. **Image Styling:**
+
+- **`.bannerslider .imagecont img:`** Images within the container are positioned absolutely to cover the entire container, maintaining their aspect ratio.
+
+4. **Content Overlay Styling:**
+
+- **`.bannerslider .imagecont .content:`** An overlay that centers content (text, buttons) within the image container. It has a semi-transparent black background, uses flexbox for layout, and centers its child elements both vertically and horizontally.
+
+5. **Heading and Text Styling:**
+
+- **`.bannerslider .imagecont h1:`** The heading within the overlay, styled with a specific font size, weight, margin, and width.
+- **`.bannerslider .imagecont span:`** Additional text within the overlay, similarly styled but with slightly smaller font size and weight.
+
+6. **Button Styling:**
+
+- **`.bannerslider .imagecont button:`** Buttons within the overlay, styled with padding, no border, a white background, black text, rounded corners, a pointer cursor on hover, and a transition effect.
+
+7. **Button Hover Effect:**
+
+- **`.bannerslider .imagecont button:hover:`** On hover, the button background color changes to a custom variable color and the text color changes to white.
+
+8. **Media Query for Smaller Screens:**
+
+- **`@media (max-width: 768px):`** Adjusts styles for screens 768px wide or smaller. It reduces the height of the image container and adjusts the font sizes and widths of the heading, text, and button for better readability on smaller screens.
+
 #### src/PAGES/Auth/AuthPage.css
 
 1. **Global Styles:**

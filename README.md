@@ -125,6 +125,49 @@
 - Max-width 1100px: Adjusts layout of .authcont, .authform, and their children for smaller screens, such as tablets.
 - Max-width 500px: Further adjusts layout for very small screens, such as mobile phones, making elements full-width and adjusting font sizes.
 
+### JavaScript
+
+#### src/COMPONENTS/Banners/BannerSlider.js
+
+1. **Imports and Component Definition:**
+
+- The **`React`** library is imported to use React's functionality.
+- **`Slider`** is imported from the **`react-slick`** library to create a carousel/slider.
+- The stylesheet **`BannerSlider.css`** is imported to style the components.
+
+2. **BannerSlider Component:**
+
+- The **`BannerSlider`** component is a functional component that returns a JSX structure.
+
+3. **Sample Data:**
+
+- The **`data`** array contains objects representing each slide in the slider. Each object includes an **`id`**, **`image URL`**, **`title`**, **`description,`** and **`button`** URL.
+
+4. **Slider Settings:**
+
+- The **`settings`** object defines the configuration for the react-slick`** slider:
+  - **`dots: true:`** Displays navigation dots below the slider.
+  - **`infinite:`** true: Enables infinite scrolling.
+  - **`speed: 500:`** Sets the transition speed to 500 milliseconds.
+  - **`slidesToShow: 1:`** Shows one slide at a time.
+  - **`slidesToScroll: 1:`** Scrolls one slide at a time.
+
+5. **JSX Structure:**
+
+- The outer **`div`** with the class **`bannerslider`** wraps the entire slider.
+- The **`Slider`** component from **`react-slick`** is used, passing the **`settings`** object as props and adding the **`bannerslider`** class.
+- Inside the **`Slider`** component, the **`data.map`** function iterates over each item in the **`data array`** to create individual slides.
+  - Each slide (**`div`** with the class **`imagecont`**) has a unique **`key`** based on the **`id`** of the item.
+  - Each slide contains an **`img`** element with the **`src`** attribute set to the **`image URL`** from the data and an **`alt`** attribute.
+  - A **`div`** with the class **`content`** contains:
+    - An **`h1`** element displaying the **`title`** from the data.
+    - A **`span`** element displaying the **`description`** from the data.
+    - A **`button`** element with the text "Shop More". This **`button`** could be linked to the URL in the button property if needed.
+
+6. **Export:**
+
+- The **`BannerSlider`** component is exported as the default export of the module, allowing it to be imported and used in other parts of the application.
+
 #### src/PAGES/Auth/ForgotPassword.js
 
 1. **Imports and Setup:**

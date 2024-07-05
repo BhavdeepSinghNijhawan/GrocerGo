@@ -47,6 +47,32 @@
 
 - **`@media (max-width: 768px):`** Adjusts styles for screens 768px wide or smaller. It reduces the height of the image container and adjusts the font sizes and widths of the heading, text, and button for better readability on smaller screens.
 
+#### src/COMPONENTS/Banners/SingleBanner.css
+
+1. **Container Styling:**
+
+- **`.singlebanner:`** The main container for the single banner, styled to take up the full width of its parent, have a height of 50% of the viewport, hide overflow content, and position its child elements relative to itself.
+
+2. **Image Styling:**
+
+- **`.singlebanner img:`** Images within the single banner are styled to cover the entire container both in width and height, maintaining their aspect ratio.
+
+3. **Image Filter Overlay:**
+
+- **`.singlebanner .bannerimgfilter:`** This is an overlay with a semi-transparent black background that covers the entire banner. It is positioned absolutely within the container to ensure it overlays the image.
+
+4. **Banner Heading Container:**
+
+- **`.singlebanner .bannerheading:`** The container for the heading text is positioned absolutely within the banner. It is centered both vertically and horizontally using a combination of top, left, and transform properties.
+
+5. **Heading Text Styling:**
+
+- **`.singlebanner .bannerheading h1:`** The heading text within the banner heading container is styled with a white color, a large font size (90px), light font weight (100), and a stack of system and web-safe fonts to ensure it displays correctly across different platforms.
+
+6. **Media Query for Smaller Screens:**
+
+- **`@media (max-width: 768px):`** Adjusts styles for screens that are 768px wide or smaller. It reduces the font size of the heading text to 50px and centers the text horizontally for better readability on smaller screens.
+
 #### src/PAGES/Auth/AuthPage.css
 
 1. **Global Styles:**

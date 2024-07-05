@@ -146,6 +146,46 @@ This component (`ForgotPassword`) is designed to display a form for users to res
 
 - **`export default Login:`** Exports the **`Login`** component as the default export.
 
+#### src/PAGES/Auth/Signup.js
+
+1. **Imports and Component Definition:**
+
+- The **`React library`** is imported to use React's functionality.
+- **`Link`** is imported from **`react-router-dom`** to handle navigation between different routes without a full page reload.
+- **`Navbar`** is imported from a relative path to include a navigation bar component.
+- The stylesheet **`AuthPage.css`** is imported to style the components.
+
+2. **Signup Component:**
+
+- The **`Signup`** component is a functional component that returns a JSX structure.
+
+3. **Main Container:**
+
+- The **`div`** with the class **`authpage`** is the main container for the signup page.
+- The Navbar`** component is included with a prop **`reloadnavbar={false}`**, which might control some behavior in the Navbar.
+
+4. **Auth Container:**
+
+- Another **`div`** with the class **`authcont`** contains the main content of the signup page.
+- An image is displayed with a **`src`** attribute pointing to a URL and an **`alt`** attribute set to 'signup'.
+
+5. **Form Structure:**
+
+- A **`form`** element with the class **`authform`** is used to gather user input.
+- The form contains an **`h1`** heading for the signup title.
+- The first form group row contains two input fields for the first name and last name.
+- The second form group contains an input field for the email.
+- The third form group row contains two input fields for the password and confirm password.
+
+6. **Links and Buttons:**
+
+- A **`Link`** component is used to navigate to the login page with a paragraph indicating the option to navigate to the login page if the user already has an account.
+- Another **`Link`** component is used for the signup button, although it links to the current page, making it redundant.
+
+7. **Export:**
+
+- The **`Signup`** component is exported as the default export of the module, allowing it to be imported and used in other parts of the application.
+
 ## CONTRIBUTOR
 
 - [Bhavdeep Singh Nijhawan](https://www.linkedin.com/in/bhavdeep-singh-nijhawan-739634280)
